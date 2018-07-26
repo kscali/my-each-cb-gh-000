@@ -4,7 +4,7 @@ def my_each(collection)
     yield collection[i] 
     i += 1 
   end 
-  array 
+  collection
 end
 
 my_each([1, 2, 3, 4]) do |i|
